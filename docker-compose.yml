@@ -1,0 +1,7 @@
+version: '2'
+services:
+ nagios:
+  image: quantumobject/docker-nagios
+  ports:
+  - "25:25"
+  - "80:80"
